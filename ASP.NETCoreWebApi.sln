@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETCoreWebApi.Test", "ASP.NETCoreWebApi.Test\ASP.NETCoreWebApi.Test.csproj", "{1E4A28AC-3741-4BFB-A081-3092F303619C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETCoreWebApi.Core", "ASP.NETCoreWebApi.Core\ASP.NETCoreWebApi.Core.csproj", "{93FD476D-32FC-46FC-92F0-1AADEB97B430}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETCoreWebApi.API", "ASP.NETCoreWebApi.API\ASP.NETCoreWebApi.API.csproj", "{2753DC65-553D-442D-97DE-72F230F8C339}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequirementDocs", "RequirementDocs", "{3D8A59A9-9C93-43E6-9845-31C3E70E640E}"
+	ProjectSection(SolutionItems) = preProject
+		SampleData.json = SampleData.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E4A28AC-3741-4BFB-A081-3092F303619C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4A28AC-3741-4BFB-A081-3092F303619C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4A28AC-3741-4BFB-A081-3092F303619C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4A28AC-3741-4BFB-A081-3092F303619C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93FD476D-32FC-46FC-92F0-1AADEB97B430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FD476D-32FC-46FC-92F0-1AADEB97B430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FD476D-32FC-46FC-92F0-1AADEB97B430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FD476D-32FC-46FC-92F0-1AADEB97B430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2753DC65-553D-442D-97DE-72F230F8C339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2753DC65-553D-442D-97DE-72F230F8C339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2753DC65-553D-442D-97DE-72F230F8C339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2753DC65-553D-442D-97DE-72F230F8C339}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5B46BE8-C0A4-42CE-B3F0-9FEB52DD3DA3}
+	EndGlobalSection
+EndGlobal
